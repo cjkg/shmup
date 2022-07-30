@@ -1,0 +1,12 @@
+function update_game()
+	update_ship()
+	do_buttons()
+	update_bullets()
+	update_enemies()
+	update_explosions()
+	update_shockwaves()
+	detect_collisions()
+	update_sparks()
+	update_waves()
+	checkend()
+end
